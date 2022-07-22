@@ -1,0 +1,190 @@
+*{
+    color: white;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}    
+header{
+    height: 100vh;
+    width: 100%;
+    background: url('background2.jpg')no-repeat center center/cover;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+.img{  
+    height: 44px;
+    width: 136px;
+    padding: 30px 64px;  
+}
+select{
+    width: 80px;
+    height: 32px;
+    margin-left: 52rem;
+    margin-top:85px;
+    background-color: rgba(0, 0, 0, 0);
+}
+option{
+    color: #000;
+}
+a.sign-in{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    background-color: #e50914;
+    margin-top: -85px;
+    margin-left: 75rem;
+    height: 34px;
+    width: 80px;
+}
+.first-div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 122px;
+    margin-left: -53px;   
+}
+.first-div h1{
+    font-size: 50px;
+    max-width: 550px;
+}
+.first-div h3{
+    margin: -5%;
+    font-size: 25px;
+    font-weight: 450;
+    line-height: 5;
+}
+.first-div p{
+    margin: 35px;
+    font-weight: 500;
+    font-size: 19spx;
+}
+input{
+    width: 390px;
+    height: 52px;
+    color: #000;
+    margin-left: -180px;
+    font-weight: bolder;
+    
+}
+.get{
+    background-color: red;
+    width: 11pc;
+    height: 57px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-weight: 400;
+    font-size: 26px;
+    margin-left: 394px;
+    margin-top: -57.9px;
+}
+.get:hover{
+    background-color: #f8222d;
+}
+.border{
+    border: 2px solid #737373;
+    width: 83rem;
+    background-color: #737373;
+}
+/*2nd page*/
+
+
+
+/*3rd page*/
+
+section{
+    background-color: #000;
+    height: 29pc;
+}
+section .img{
+    height: 25rem;
+    width:31pc;
+    margin-left: 47px;
+    margin-top: 30px;
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    margin-top: -22rem;
+    margin-left: 42rem;
+}
+
+section h1{
+    font-size: 47px;
+    max-width: 33rem;
+}
+section p{
+    font-size: 27px;
+    max-width: 34pc;
+    margin-top: -2rem;
+}
+
+  /*4rd page*/
+
+  section{
+    background-color: #000;
+    height: 29pc;
+}
+section .img{
+    height: 22rem;
+    width:31pc;
+    margin-left: -13px;
+    margin-top: -11px;
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    margin-top: -22rem;
+    margin-left: 42rem;
+}
+
+section h1{
+    font-size: 47px;
+    max-width: 33rem;
+}
+section p{
+    font-size: 27px;
+    max-width: 34pc;
+    margin-top: -2rem;
+}
+/*5th page*/
+footer{
+    background-color: #000;
+    height: 65pc;
+    margin-top: -31px;
+}
+footer h1{
+    font-size: 47px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 6rem;
+}
+footer ul{
+    list-style: none;
+    margin-left: 10rem;
+    margin-top: -173px;
+    padding: 6rem;
+    cursor: pointer;
+}
+footer .list::after{
+    position: absolute;
+    left: 62rem;
+    font-size: 3rem;
+    content: '+';
+    color: aliceblue;
+}
+.list{
+    border: 2px solid black;
+    background-color: #2a2a2a;
+    width: 48rem;
+    line-height: 5rem;
+    font-size: 1.5rem;
+    padding-left: 2rem;
+}
+#last{
+    margin-top: -200px;
+}
